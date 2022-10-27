@@ -7,8 +7,6 @@ app.use(cors())
 const coursesCategory = require('./data/courses-category.json')
 const course = require('./data/course.json')
 
-
-
 app.get('/category', (req, res) => {
     res.send(coursesCategory);
 });
