@@ -36,5 +36,5 @@ app.get('/course/:id',(req,res)=>{
 })
 
 app.listen(port, () => {
-    console.log('server work on port', port);
+    console.log(`woow ser is work on port ${port}`);
 })
